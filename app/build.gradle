@@ -6,6 +6,13 @@ plugins {
 android {
     compileSdk 31
 
+
+    buildFeatures{
+
+        dataBinding = true
+
+    }
+
     defaultConfig {
         applicationId "com.example.colosseum_20211025"
         minSdk 21
